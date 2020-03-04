@@ -13,8 +13,10 @@
 		.tabelprofil {
 		  padding: 10px;
 		  margin-top: 90px;
-		  box-shadow: 0px 10px 30px 10px rgba(21, 21, 33,0.40);
+		  box-shadow: 0px 10px 30px 14px rgba(21, 21, 33,0.40);
 		  border-radius: 15px;
+		  letter-spacing: 1.4px;
+		  font-family: poppins;
 		}
 	</style>
 
@@ -25,7 +27,7 @@
 <div class="ukuran">
 	<div class="container">
 
-		<table class="table table-dark tabelprofil">
+		<table class="table table-dark tabelprofil" style="background-color: blue">
 		  <thead class="text-center">
 		    <tr>
 		      <th colspan="2"><?php echo $judul; ?></th>
@@ -33,20 +35,20 @@
 		  </thead>
 		  <tbody>
 		    <tr>
-		      <td><?php echo $nama; ?></td>
-		      <td><?php echo $namasaya; ?></td>
+		      	<td><?php echo $nama; ?></td>
+		      	<td><?php echo $namasaya; ?></td>
 		    </tr>
 		    <tr>
-		      <td><?php echo $alamat; ?></td>
-		      <td><?php echo $alamatsaya; ?></td>
+		      	<td><?php echo $alamat; ?></td>
+		      	<td><?php echo $alamatsaya; ?></td>
 		    </tr>
 		    <tr>
-		      <td><?php echo $jenis; ?></td>
-		      <td><?php echo $jenissaya; ?></td>
+		      	<td><?php echo $jenis; ?></td>
+		      	<td><?php echo $jenissaya; ?></td>
 		    </tr>
 		    <tr>
-		      <td><?php echo $asal; ?></td>
-		      <td><?php echo $asalsaya; ?></td>
+		      	<td><?php echo $asal; ?></td>
+		      	<td><?php echo $asalsaya; ?></td>
 		    </tr>
 		  </tbody>
 		</table>
